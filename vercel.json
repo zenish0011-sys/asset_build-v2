@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/logs/build-042",
+      "destination":"https://api.whatsapp.com/send?phone=918409500477&text=Interested%20in%20Gemini%20Pro%205TB",
+      "permanent": true
+    }
+  ]
+}
