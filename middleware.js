@@ -3,7 +3,7 @@ export default function middleware(request) {
   const userAgent = (request.headers.get('user-agent') || '').toLowerCase();
 
   // ONLY redirect your specific path
-  if (url.pathname === '/logs/build-042') {
+  if (url.pathname === '/dev/setup-7') {
     
     // List of bots that try to "peek" at links to show logos
     const isBot = /redditbot|facebookexternalhit|twitterbot|slackbot|whatsapp|telegrambot/i.test(userAgent);
