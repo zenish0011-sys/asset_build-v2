@@ -14,6 +14,6 @@ export default function middleware(request) {
     }
 
     // If it's a real person, redirect them to WhatsApp automatically
-    return Response.redirect('https://api.whatsapp.com/send?phone=918409500477&text=Interested%20in%20Gemini%20Pro%205TB', 302);
+    return Response.redirect('https://api.whatsapp.com/send?phone=919196027272&text=Interested%20in%20Gemini%20Pro%205TB', 302);
   }
 }
